@@ -9,6 +9,10 @@
 % x_interp_max = maximum x-axis value for the new interpolated/extrapolated graph
 % number of points (optional) = number of x-axis points required (interval between the points)
 % --------------------------------------------------------------------------------------------
+%% Outputs
+% x_interp = interpolated/extrapolated x-axis values
+% y_interp = interpolated/extrapolated y-axis values
+% --------------------------------------------------------------------------------------------
 
 function [x_interp, y_interp] = EquiSpaceGraph_2Dinterpolation(x, y, x_interp_min, x_interp_max, number_of_points)
 %% Errors
