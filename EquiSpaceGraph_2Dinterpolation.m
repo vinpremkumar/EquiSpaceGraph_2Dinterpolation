@@ -34,7 +34,7 @@ if nargin == 4
 end
 
 %% Interpolation section
-[x] = unique(x); % Sort x and remove repeats
+%[x] = unique(x); % Sort x and remove repeats
 
 x_interp = linspace(x_interp_min,x_interp_max,number_of_points)'; % Equispacing the x-axis
 y_interp = interp1(x,y,x_interp,'linear','extrap'); % Interpolation/extrapolation
